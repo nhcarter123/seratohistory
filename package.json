@@ -4,7 +4,7 @@
   "description": "Parse the complete play history from the Serato session history files.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,9 @@
   },
   "homepage": "https://github.com/nhcarter123/seratohistory#readme",
   "dependencies": {
-    "lodash": "^4.17.15",
-    "bluebird": "^3.7.2"
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "jest": "^25.2.2"
   }
 }
