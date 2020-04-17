@@ -10,9 +10,12 @@ npm i seratohistory
 ```
 
 ```
-const { getDefaultSeratoPath, getHistory } = require('seratohistory'); // Import.
+// Import.
+const { getDefaultSeratoPath, getHistory } = require('seratohistory');
 
-const seratoPath = getDefaultSeratoPath(); // Get the default Serato path.
+// Get the default Serato path.
+const seratoPath = getDefaultSeratoPath();
 
-const history = await getSeratoHistory(seratoPath); // Obtain the history.
+// Obtain the history.
+const history = await getSeratoHistory(seratoPath);
 ```
