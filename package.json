@@ -1,0 +1,31 @@
+{
+  "name": "seratohistory",
+  "version": "1.0.0",
+  "description": "Parse the complete play history from the Serato session history files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhcarter123/seratohistory.git"
+  },
+  "keywords": [
+    "DJ",
+    "Serato",
+    "History",
+    "Session",
+    "Files",
+    ".session"
+  ],
+  "author": "Nathaniel Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nhcarter123/seratohistory/issues"
+  },
+  "homepage": "https://github.com/nhcarter123/seratohistory#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "bluebird": "^3.7.2"
+  }
+}
