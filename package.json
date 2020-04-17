@@ -1,6 +1,6 @@
 {
   "name": "seratohistory",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Parse the complete play history from the Serato session history files.",
   "main": "index.js",
   "scripts": {

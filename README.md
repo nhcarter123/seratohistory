@@ -1,16 +1,15 @@
 # Serato History
 Parse the complete play history from the Serato session history files.
 
-## Usage
+## Install
 
-Install it via
 
 ```console
 npm i seratohistory
 ```
 
-```
-// Import
+## Usage
+```js
 const { getDefaultSeratoPath, getHistory } = require('seratohistory');
 
 // Get the default Serato path
@@ -19,3 +18,21 @@ const seratoPath = getDefaultSeratoPath();
 // Obtain the history
 const history = await getHistory(seratoPath);
 ```
+
+## Retrievable Fields
+* title
+* artist
+* bpm
+* key
+* filePath
+* duration
+* deck
+* notes
+* album
+* genre
+* comment
+* grouping
+* remixer
+* label
+* composer
+* year
