@@ -20,6 +20,7 @@ const history = await getHistory(seratoPath);
 ```
 
 ## Retrievable Fields
+* date
 * title
 * artist
 * bpm
